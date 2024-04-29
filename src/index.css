@@ -179,15 +179,15 @@ input {
 }
 
 .btn {
-  background: var(--clr-primary-5);
-  padding: 0.5rem 1rem;
-  font-size: 1.2rem;
-  border-color: transparent;
+  background:var(--clr-primary-5);
+  padding:0.5rem 1rem;
+  font-size:1.2rem;
+  border-color:transparent;
   border-top-right-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
   text-transform: capitalize;
   color: var(--clr-white);
-  cursor: pointer;
+  cursor:pointer;
 }
 
 @media screen and (max-width: 576px) {
@@ -206,8 +206,8 @@ input.error {
 }
 
 .colors {
-  min-height: calc(100vh - 100px);
-  display: grid;
+  min-height:calc(100vh - 100px);
+  display:grid;
   grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
 }
